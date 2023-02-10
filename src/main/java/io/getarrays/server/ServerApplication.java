@@ -2,14 +2,14 @@ package io.getarrays.server;
 
 import io.getarrays.server.enumeration.Status;
 import io.getarrays.server.model.Server;
-import io.getarrays.server.repo.ServerRepo;
+import io.getarrays.server.repository.ServerRepo;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication
 public class ServerApplication {
 
 	public static void main(String[] args) {

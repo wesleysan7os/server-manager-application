@@ -2,7 +2,7 @@ package io.getarrays.server.service.implementation;
 
 import io.getarrays.server.enumeration.Status;
 import io.getarrays.server.model.Server;
-import io.getarrays.server.repo.ServerRepo;
+import io.getarrays.server.repository.ServerRepo;
 import io.getarrays.server.service.ServerService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
